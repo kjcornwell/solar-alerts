@@ -3,22 +3,194 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Solar Alerts</title>
-<meta name="description" content="Solar Alerts: sunrise, sunset and golden hour alerts for Android.">
+<title>Solar Alerts: sunset and sunrise alerts for Android</title>
+<meta name="description" content="Solar Alerts reminds you before or after every sunset and sunrise, with golden hour, blue hour and twilight times. On-device, no ads, no accounts.">
+<meta name="theme-color" content="#ff7a2f">
+<link rel="canonical" href="https://kjcornwell.github.io/solar-alerts/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Solar Alerts">
+<meta property="og:title" content="Solar Alerts: never miss a sunset or sunrise">
+<meta property="og:description" content="Alerts before or after sunset and sunrise, plus golden hour and twilight times. Location never leaves your phone.">
+<meta property="og:url" content="https://kjcornwell.github.io/solar-alerts/">
+<meta property="og:image" content="https://kjcornwell.github.io/solar-alerts/assets/feature.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta property="og:image:alt" content="Solar Alerts: Never miss a sunset or sunrise">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/icon.png">
+<link rel="apple-touch-icon" href="assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500..700;1,9..144,500&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-<h1>Solar Alerts</h1>
-<p class="meta">Sunrise, sunset and golden hour alerts for Android.</p>
-<div class="card">
-<p>Solar Alerts calculates solar events for your location and reminds you before they happen, all on your device, with no accounts or ads.</p>
-<p><a href="https://play.google.com/store/apps/details?id=com.root3.sunsetreminder">Get it on Google Play</a></p>
+<header class="hero">
+<nav class="site-nav" aria-label="Main">
+<a class="brand" href="index.html"><img src="assets/icon.png" alt="" width="34" height="34"><span>Solar Alerts</span></a>
+<ul>
+<li><a href="index.html" aria-current="page">Home</a></li>
+<li><a href="support.html">Support</a></li>
+<li><a href="privacy.html">Privacy Policy</a></li>
+</ul>
+</nav>
+<div class="hero-inner">
+<div class="hero-copy">
+<p class="eyebrow rise">For Android 8.0 and newer</p>
+<h1 class="rise d1">Never miss a <em>sunset</em> or sunrise.</h1>
+<p class="lede rise d2">Solar Alerts reminds you before or after every sunset and sunrise, so you never miss golden light, an evening walk, or the moment the sun goes down.</p>
+<div class="cta rise d3">
+<a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.root3.sunsetreminder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>Get it on Google Play</a>
+<a class="btn btn-ghost" href="https://play.google.com/apps/testing/com.root3.sunsetreminder">Join the closed test (opens once approved)</a>
 </div>
-<h2>Support</h2>
-<p>Questions or problems? Email <a href="mailto:kjcornwell@gmail.com">kjcornwell@gmail.com</a>, or tap the email option in the app's Developer Information screen.</p>
-<h2>Privacy</h2>
-<p>Read the <a href="privacy.html">Privacy Policy</a>.</p>
+<p class="cta-note rise d3">No ads, no accounts, no tracking.</p>
+</div>
+<div class="hero-visual">
+<div class="sun" aria-hidden="true"></div>
+<div class="phone"><img src="assets/phone-1.png" width="540" height="1080" alt="Solar Alerts home screen: countdown to sunset, today's sunrise and sunset times, and a list of daily alerts"></div>
+</div>
+</div>
+</header>
+
+<main class="landing">
+<section class="section" aria-labelledby="day-h">
+<div class="wrap">
+<span class="kicker">From first light to last</span>
+<h2 id="day-h">Every phase of the day, to the second.</h2>
+<p class="intro">Solar Alerts tracks the whole arc of the sun for where you are, from astronomical twilight through golden hour to solar noon, and taps you on the shoulder before sunrise or sunset.</p>
+<div class="daybar" role="img" aria-label="A day from night through blue hour, golden hour, solar noon, golden hour, blue hour and back to night"></div>
+<ul class="daylabels" aria-hidden="true"><li>Night</li><li>Blue</li><li>Golden</li><li>Noon</li><li>Golden</li><li>Blue</li><li>Night</li></ul>
+</div>
+</section>
+
+<section class="section flush" id="features" aria-labelledby="features-h">
+<div class="wrap">
+<span class="kicker">Features</span>
+<h2 id="features-h">Built around the sun.</h2>
+<div class="features">
+<article class="feature">
+<div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></div>
+<h3>Set alerts your way</h3>
+<ul class="ticks">
+<li>Any number of minutes before or after sunset or sunrise</li>
+<li>Daily or one-time alerts, with day-of-week selection</li>
+<li>Optional labels like "Evening walk" or "Photography time"</li>
+<li>Snooze right from the notification</li>
+<li>Precise alarms that fire on time, even when your phone is idle</li>
+</ul>
+</article>
+<article class="feature">
+<div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></div>
+<h3>Know the sun</h3>
+<ul class="ticks">
+<li>Live countdown to the next sunset or sunrise</li>
+<li>Today's and tomorrow's sunrise and sunset, to the second</li>
+<li>Day length and how it compares to yesterday</li>
+<li>Solar noon, golden hour, blue hour, and civil, nautical and astronomical twilight</li>
+<li>Handles midnight sun and polar night in the far north and south</li>
+</ul>
+</article>
+<article class="feature">
+<div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><path d="m12 13 .9 1.9 2.1.3-1.5 1.4.4 2.1-1.9-1-1.9 1 .4-2.1-1.5-1.4 2.1-.3z"/></svg></div>
+<h3>Solar events &amp; celestial calendar</h3>
+<ul class="ticks">
+<li>Solar Clock and timeline views of where the sun is right now</li>
+<li>Browse every solar event for any date</li>
+<li>Upcoming celestial events and meteor showers</li>
+<li>Verified dates for eclipses, meteor shower peaks, planet oppositions, equinoxes and solstices through 2031</li>
+<li>Moon phase and the next full and new moon</li>
+</ul>
+</article>
+</div>
+<p class="also">Also: 12-hour or 24-hour time, light and dark themes, share today's sunset time with friends, and built-in help for every setting.</p>
+</div>
+</section>
+
+<section class="section band" id="privacy" aria-labelledby="privacy-h">
+<div class="wrap">
+<span class="kicker">Privacy</span>
+<h2 id="privacy-h">Wherever you are. Privately.</h2>
+<p class="intro">Sun times are calculated on your device. Your location is used for that and nothing else.</p>
+<ul class="pillars">
+<li><strong>On-device</strong><span>Your location never leaves your phone.</span></li>
+<li><strong>No accounts</strong><span>Nothing to sign up for, nothing to log in to.</span></li>
+<li><strong>No ads, no tracking</strong><span>No advertising ID, no analytics SDKs.</span></li>
+</ul>
+<ul class="ticks">
+<li>Uses your GPS location, or enter a place manually</li>
+<li>Follow Me mode keeps times accurate as you travel</li>
+<li>Adjusts automatically for daylight saving time</li>
+</ul>
+<p>Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+</div>
+</section>
+
+<section class="section" id="screenshots" aria-labelledby="shots-h">
+<div class="wrap">
+<span class="kicker">Screenshots</span>
+<h2 id="shots-h">A closer look.</h2>
+<div class="shots">
+<figure><img src="assets/phone-1.png" width="540" height="1080" loading="lazy" alt="Home screen with sunset countdown, sun times and alerts"><figcaption><b>Home</b>Countdown, today's sun times and your alerts.</figcaption></figure>
+<figure><img src="assets/phone-2.png" width="540" height="1080" loading="lazy" alt="Edit Alert screen: label, minutes, before or after, sunset or sunrise, daily or one-time, days of week"><figcaption><b>Edit an alert</b>Minutes, before or after, sunrise or sunset, and which days.</figcaption></figure>
+<figure><img src="assets/phone-3.png" width="540" height="1080" loading="lazy" alt="Solar Events screen listing sunrise, solar noon, sunset, day length, golden hour, blue hour and twilight times for a date"><figcaption><b>Solar Events</b>Every twilight phase for any date.</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section class="section flush" id="whats-new" aria-labelledby="new-h">
+<div class="wrap">
+<span class="kicker">Release notes</span>
+<h2 id="new-h">What's new in 1.2.57</h2>
+<div class="releases">
+<article class="release latest">
+<header><h3>1.2.57</h3><span class="badge">Latest</span><time datetime="2026-10-28">October 28, 2026</time></header>
+<ul class="ticks">
+<li><b>Far north and far south:</b> during midnight sun or polar night, the app now says there is no sunrise or sunset today instead of showing times from weeks away, and no longer schedules alerts from the wrong day.</li>
+<li><b>Equinox and solstice times</b> for years beyond the built-in calendar are now accurate to about a minute and shown in your time zone.</li>
+</ul>
+</article>
+<article class="release">
+<header><h3>1.2.56</h3><time datetime="2026-10-28">October 28, 2026</time></header>
+<ul class="ticks">
+<li>On Android 12 and newer, the app asks once to allow exact alarms so alerts arrive at the precise moment.</li>
+<li>Privacy Policy link added under Settings &rarr; About &amp; Support.</li>
+</ul>
+</article>
+<article class="release">
+<header><h3>1.2.55</h3><time datetime="2026-10-27">October 27, 2026</time></header>
+<ul class="ticks">
+<li>Day-of-week alerts no longer fire on the other days.</li>
+<li>Repeating alerts re-arm the moment they fire, so the next day's alert is never skipped.</li>
+<li>Alerts reschedule automatically after an update or a time zone change.</li>
+<li>Smaller download.</li>
+</ul>
+</article>
+</div>
+</div>
+</section>
+
+<section class="closing" aria-labelledby="closing-h">
+<div class="wrap">
+<h2 id="closing-h">Catch tonight's sunset.</h2>
+<div class="cta">
+<a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.root3.sunsetreminder">Get it on Google Play</a>
+<a class="btn btn-ghost" href="https://play.google.com/apps/testing/com.root3.sunsetreminder">Join the closed test (opens once approved)</a>
+</div>
+<p class="cta-note">Requires Android 8.0 or newer.</p>
+</div>
+</section>
 </main>
+
+<footer class="site-footer">
+<div class="wrap">
+<p>&copy; 2026 3Root Software LLC</p>
+<ul>
+<li><a href="support.html">Support</a></li>
+<li><a href="privacy.html">Privacy Policy</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.root3.sunsetreminder">Google Play listing</a></li>
+<li><a href="mailto:kjcornwell@gmail.com">kjcornwell@gmail.com</a></li>
+</ul>
+</div>
+</footer>
 </body>
 </html>
