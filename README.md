@@ -9,10 +9,12 @@ Solar Alerts is an Android app (8.0 and newer) that reminds you before or after 
 ## Features
 
 **Set alerts your way**
-- Any number of minutes before or after sunset or sunrise
-- Daily or one-time alerts, with day-of-week selection
+- Before, at or after sunset or sunrise: one tap for 10 minutes to 2 hours, or your own hours and minutes (up to 999 minutes)
+- Every day, weekdays, weekends, days you pick, or just once
+- A sun timeline and a live notification preview show exactly when and how it goes off
+- Every setting on one page, or Guided mode: one question at a time
 - Optional labels like "Evening walk" or "Photography time"
-- Snooze right from the notification
+- Notifications count down live; snooze right from the notification
 - Precise alarms that fire on time, even when your phone is idle
 
 **Know the sun**
@@ -23,7 +25,13 @@ Solar Alerts is an Android app (8.0 and newer) that reminds you before or after 
 
 **Solar events and celestial calendar**
 - Solar Clock and timeline views of where the sun is right now
+- Every solar event for any date
 - Upcoming celestial events and meteor showers, with verified dates through 2031
+
+**Make it yours**
+- Six themes (Solar Classic, Kodachrome ’70s, Ukiyo-e Woodblock, Mission Control, Observatory Brass, Riso Almanac), each with a day and a night look
+- Countdown card layouts from Sun Arc to Departure Board, previewed live before you save
+- 12-hour or 24-hour time
 
 **Wherever you are, privately**
 - Uses your GPS location, or enter a place manually
@@ -34,9 +42,11 @@ Solar Alerts is an Android app (8.0 and newer) that reminds you before or after 
 ## Screenshots
 
 <p>
-<img src="assets/phone-1.png" width="240" alt="Home screen with sunset countdown, sun times and alerts">
-<img src="assets/phone-2.png" width="240" alt="Edit Alert screen">
-<img src="assets/phone-3.png" width="240" alt="Solar Events screen with twilight times">
+<img src="assets/phone-1.png" width="240" alt="Home screen with live countdown card and Your Alerts list">
+<img src="assets/phone-2.png" width="240" alt="Alert editor in All settings view with the sun timeline">
+<img src="assets/phone-3.png" width="240" alt="Alert editor in Guided mode with the sun timeline and step buttons">
+<img src="assets/phone-4.png" width="240" alt="Theme browser">
+<img src="assets/phone-5.png" width="240" alt="Solar Events sheet with every solar event for a date">
 </p>
 
 ## Links
