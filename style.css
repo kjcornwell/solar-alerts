@@ -128,7 +128,7 @@ main.landing{max-width:none;padding:0}
 
 @media (min-width:600px){
 .features{grid-template-columns:repeat(2,1fr)}
-.pillars{grid-template-columns:repeat(3,1fr)}
+.pillars{grid-template-columns:repeat(2,1fr)}
 }
 @media (min-width:880px){
 .site-nav{padding:20px 24px}
