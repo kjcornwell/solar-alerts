@@ -16,6 +16,7 @@ Solar Alerts is an Android app (8.0 and newer) that reminds you before or after 
 - Optional labels like "Evening walk" or "Photography time"
 - Notifications count down live; snooze right from the notification
 - Precise alarms that fire on time, even when your phone is idle
+- Alerts, settings and location carry over with Android backup and to a new phone
 
 **Know the sun**
 - Live countdown to the next sunset or sunrise
