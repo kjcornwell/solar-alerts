@@ -33,9 +33,11 @@ Solar Alerts is an Android app (8.0 and newer) that reminds you before or after 
 - Six themes (Solar Classic, Kodachrome ’70s, Ukiyo-e Woodblock, Mission Control, Observatory Brass, Riso Almanac), each with a day and a night look
 - Countdown card layouts from Sun Arc to Departure Board, previewed live before you save
 - 12-hour or 24-hour time
+- Rate or share the app from the top of Settings
 
 **Wherever you are, privately**
 - Uses your GPS location, or enter a place manually
+- For a place you picked by hand, times are shown in your phone's time zone, and the app says so
 - Follow Me mode keeps times accurate as you travel
 - Adjusts automatically for daylight saving time
 - Your location never leaves your phone
