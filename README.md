@@ -58,7 +58,6 @@ Solar Alerts is an Android app (8.0 and newer) that reminds you before or after 
 - [Support](https://kjcornwell.github.io/solar-alerts/support.html)
 - [Privacy Policy](https://kjcornwell.github.io/solar-alerts/privacy.html)
 - [Google Play listing](https://play.google.com/store/apps/details?id=com.root3.sunsetreminder)
-- [Join the closed test](https://play.google.com/apps/testing/com.root3.sunsetreminder) (opens once approved)
 - Contact: kjcornwell@gmail.com
 
 ## About this repository
